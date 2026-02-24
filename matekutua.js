@@ -1,4 +1,4 @@
 function reversedNumber(num) {
-  let reversed = num.toString().split('').reverse().join('');
-  return Number(reversed);
+  let cifri = num.toString().split('').reverse().join('');
+  return Number(cifri);
 }
